@@ -1,9 +1,20 @@
-# RootUP_frontend
+# ROOTUP Frontend
 
+ROOTUP is an AI-powered career development platform designed to bridge the gap between learners and employers through personalized roadmaps, skill verification, and employer matching.
+
+This repository contains the frontend application built using:
+
+- HTML5
+- CSS3
+- Vanilla JavaScript (SPA Architecture)
+
+---
 
 Structure (Not sure all are needed or anything missing. But use as a framework and build the rest step by step )
 
+# Project Structure
 
+```txt
 rootup-frontend/
 │
 ├── index.html
@@ -22,27 +33,8 @@ rootup-frontend/
 │   ├── animations.css
 │   │
 │   ├── layouts/
-│   │   ├── navbar.css
-│   │   ├── sidebar.css
-│   │   ├── dashboard-layout.css
-│   │   └── auth-layout.css
-│   │
 │   ├── components/
-│   │   ├── buttons.css
-│   │   ├── cards.css
-│   │   ├── modals.css
-│   │   ├── forms.css
-│   │   ├── progress.css
-│   │   ├── notifications.css
-│   │   └── badges.css
-│   │
 │   └── pages/
-│       ├── dashboard.css
-│       ├── roadmap.css
-│       ├── employer.css
-│       ├── profile.css
-│       ├── auth.css
-│       └── pods.css
 │
 ├── js/
 │   ├── main.js
@@ -50,94 +42,14 @@ rootup-frontend/
 │   ├── config.js
 │   │
 │   ├── state/
-│   │   ├── store.js
-│   │   ├── authState.js
-│   │   ├── userState.js
-│   │   └── roadmapState.js
-│   │
 │   ├── services/
-│   │   ├── api.js
-│   │   ├── authService.js
-│   │   ├── userService.js
-│   │   ├── roadmapService.js
-│   │   ├── employerService.js
-│   │   └── aiService.js
-│   │
 │   ├── utils/
-│   │   ├── helpers.js
-│   │   ├── validators.js
-│   │   ├── storage.js
-│   │   ├── date.js
-│   │   └── notifications.js
-│   │
 │   ├── components/
-│   │   ├── navbar/
-│   │   │   ├── navbar.js
-│   │   │   └── navbar.html
-│   │   │
-│   │   ├── sidebar/
-│   │   │   ├── sidebar.js
-│   │   │   └── sidebar.html
-│   │   │
-│   │   ├── cards/
-│   │   │   ├── roadmapCard.js
-│   │   │   ├── skillCard.js
-│   │   │   └── employerCard.js
-│   │   │
-│   │   ├── modals/
-│   │   ├── charts/
-│   │   ├── forms/
-│   │   └── forest/
-│   │
 │   ├── views/
-│   │   ├── landing/
-│   │   │   └── landingView.js
-│   │   │
-│   │   ├── auth/
-│   │   │   ├── loginView.js
-│   │   │   ├── registerView.js
-│   │   │   └── forgotPasswordView.js
-│   │   │
-│   │   ├── dashboard/
-│   │   │   ├── dashboardView.js
-│   │   │   ├── analyticsView.js
-│   │   │   └── readinessView.js
-│   │   │
-│   │   ├── roadmap/
-│   │   │   ├── roadmapView.js
-│   │   │   ├── phasesView.js
-│   │   │   └── skillsView.js
-│   │   │
-│   │   ├── employer/
-│   │   │   ├── employerDashboardView.js
-│   │   │   ├── candidatesView.js
-│   │   │   └── thresholdsView.js
-│   │   │
-│   │   ├── pods/
-│   │   │   ├── podsView.js
-│   │   │   └── leaderboardView.js
-│   │   │
-│   │   ├── profile/
-│   │   │   ├── profileView.js
-│   │   │   └── settingsView.js
-│   │   │
-│   │   └── errors/
-│   │       ├── notFoundView.js
-│   │       └── unauthorizedView.js
-│   │
 │   └── templates/
-│       ├── layout.html
-│       └── loading.html
 │
 ├── data/
-│   ├── mockUsers.json
-│   ├── mockRoadmaps.json
-│   └── mockEmployers.json
 │
 ├── docs/
-│   ├── frontend-rules.md
-│   ├── naming-conventions.md
-│   ├── api-contracts.md
-│   └── git-workflow.md
 │
 └── README.md
